@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">VisualImparied</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_call_log_main">CallLogMain</string>
+    <string name="title_activity_call_menu">CallMenu</string>
+    <string name="title_activity_recived_calls">Recived_calls</string>
+    <string name="title_activity_received_calls">Received_calls</string>
+    <string name="title_activity_incoming_calls">Incoming_calls</string>
+    <string name="title_activity_outgoing_calls">Outgoing_calls</string>
+    <string name="title_activity_missed_calls">Missed_calls</string>
+    <string name="title_activity_second_menu">secondMenu</string>
+    <string name="title_activity_panivida_2">Panivida_2</string>
+    <string name="title_activity_panividaya__arabanna">Panividaya_Arabanna</string>
+    <string name="title_activity_pamini__panivida">Pamini_Panivida</string>
+    <string name="title_activity_sbhadatha">Sbhadatha</string>
+    <string name="title_activity_edit_contact">EditContact</string>
+    <string name="title_activity_message_number_read">MessageNumberRead</string>
+    <string name="title_activity_edit_name">EditName</string>
+    <string name="title_activity_letter_read">LetterRead</string>
+    <string name="title_activity_number_read">NumberRead</string>
+    <string name="title_activity_edit_number">EditNumber</string>
+    <string name="title_activity_letter_read1">LetterRead1</string>
+    <string name="title_activity_sendmessage_contact">SendmessageContact</string>
+    <string name="title_activity_letter_read2">LetterRead2</string>
+    <string name="title_activity_reply_message">ReplyMessage</string>
+    <string name="title_activity_letter_input__contactsave">LetterInput_Contactsave</string>
+    <string name="title_activity_recordings">Recordings</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_number_pad_select">NUmberPadSelect</string>
+    <string name="title_activity_number_input">NUmberInput</string>
+    <string name="title_activity_reminder">Reminder</string>
+    <string name="title_activity_time_date">TimeDate</string>
+</resources>

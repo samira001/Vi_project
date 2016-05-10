@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="blindhelp.visualimparied" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.write_calendar" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".FirstMenu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CallLogMain"
+            android:label="@string/title_activity_call_log_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CallMenu"
+            android:label="@string/title_activity_call_menu"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Received_calls"
+            android:label="@string/title_activity_received_calls"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Outgoing_calls"
+            android:label="@string/title_activity_outgoing_calls"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Missed_calls"
+            android:label="@string/title_activity_missed_calls"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".secondMenu"
+            android:label="@string/title_activity_second_menu"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Panivida_2"
+            android:label="@string/title_activity_panivida_2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Panividaya_Arabanna"
+            android:label="@string/title_activity_panividaya__arabanna" >
+        </activity>
+        <activity
+            android:name=".Pamini_Panivida"
+            android:label="@string/title_activity_pamini__panivida"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Sbhadatha"
+            android:label="@string/title_activity_sbhadatha" >
+        </activity>
+        <activity
+            android:name=".EditContact"
+            android:label="@string/title_activity_edit_contact"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MessageNumberRead"
+            android:label="@string/title_activity_message_number_read"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EditName"
+            android:label="@string/title_activity_edit_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterRead"
+            android:label="@string/title_activity_letter_read"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NumberRead"
+            android:label="@string/title_activity_number_read"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EditNumber"
+            android:label="@string/title_activity_edit_number"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterRead2"
+            android:label="@string/title_activity_letter_read2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ReplyMessage"
+            android:label="@string/title_activity_reply_message"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LetterInput_Contactsave"
+            android:label="@string/title_activity_letter_input__contactsave"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Recordings"
+            android:label="@string/title_activity_recordings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="blindhelp.visualimpariedTamil.NUmberPadSelect"
+            android:label="@string/title_activity_number_pad_select" >
+        </activity>
+        <activity
+            android:name=".NumberPadSelect"
+            android:label="@string/title_activity_number_pad_select" >
+        </activity>
+        <activity
+            android:name=".NUmberInput"
+            android:label="@string/title_activity_number_input" >
+        </activity>
+        <activity
+            android:name=".Reminder"
+            android:label="@string/title_activity_reminder" >
+        </activity>
+        <activity
+            android:name=".TimeDate"
+            android:label="@string/title_activity_time_date" >
+        </activity>
+    </application>
+
+</manifest>
